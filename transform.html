@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .outer{
+            height: 150px;
+            width: 160px;
+            background-color: chartreuse;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            margin-left: 450px;
+        }
+        .inner{
+            height: 150px;
+            width: 160px;
+            border: 1px dotted blue;
+            background-color: brown;
+            transform: translateX(75px) rotate(45deg) scale(.70);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Transform with inner and outer box by using scale and rotate</h1>
+    <div class="outer">
+        <div class="inner">Inner box 1</div>
+    </div>
+    <div class="outer">
+        <div class="inner">Inner box 2</div>
+    </div>
+    <div class="outer">
+        <div class="inner">Inner box 3</div>
+    </div>
+</body>
+</html>
